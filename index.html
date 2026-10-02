@@ -156,6 +156,18 @@
 .cb-hotel small{display:block;font-size:12.5px;font-weight:500;color:rgba(255,255,255,.75);margin-top:2px;}
 .cb-day-note{margin-top:12px;text-align:center;font-size:12.5px;color:var(--cb-gray);}
 
+/* ---------- 공항 미팅 ---------- */
+.cb-meet{border:1px solid var(--cb-line);border-radius:18px;padding:24px;background:#fff;box-shadow:0 6px 22px rgba(32,36,46,.05);}
+.cb-meet-top{display:flex;gap:20px;align-items:flex-start;margin-bottom:18px;}
+.cb-meet-time{flex:none;background:var(--cb-navy-deep);color:#fff;border-radius:14px;padding:14px 18px;text-align:center;}
+.cb-meet-time small{display:block;font-size:12.5px;opacity:.85;}
+.cb-meet-time b{display:block;font-size:30px;font-weight:800;color:var(--cb-gold);line-height:1.2;}
+.cb-meet h5{font-size:17px;font-weight:800;color:var(--cb-navy);margin-bottom:6px;}
+.cb-meet p{font-size:14px;color:var(--cb-gray);}
+.cb-meet .cb-meet-note{margin-top:8px;color:var(--cb-ink);}
+.cb-meet img{display:block;width:100%;height:auto;border-radius:12px;border:1px solid var(--cb-line);}
+@media (max-width:520px){.cb-meet{padding:18px 16px;}.cb-meet-top{gap:14px;}.cb-meet-time{padding:12px 14px;}.cb-meet-time b{font-size:24px;}}
+
 /* ---------- 준비사항 카드 ---------- */
 .cb-card{border:1px solid var(--cb-line);border-radius:18px;padding:28px 26px;background:#fff;box-shadow:0 6px 22px rgba(32,36,46,.05);}
 .cb-card h4{font-size:18px;font-weight:800;color:var(--cb-navy);margin-bottom:16px;display:flex;align-items:center;gap:9px;}
@@ -285,7 +297,7 @@
       </div>
       <div class="cb-ov-item">
         <div class="cb-ov-ico">📍</div>
-        <div><h4>집결</h4><p>11.01(일) · 출발 2시간 30분 전<br>인천공항 도착</p><small>미팅 장소·시간은 확정 시 안내 예정</small></div>
+        <div><h4>집결</h4><p>11.01(일) 15:50 · 출발 3시간 전<br>인천공항 제2터미널 3층</p><small>C-54 여행사 카운터 · 아래 공항 미팅 안내 참고</small></div>
       </div>
     </div>
     <div class="cb-flight">
@@ -302,6 +314,20 @@
           <div><div class="cb-f-label">인천 도착</div><div class="cb-f-port">ICN</div><div class="cb-f-time">05:35</div></div>
         </div>
       </div>
+    </div>
+  </section>
+  <section class="cb-sec">
+    <h2 class="cb-sec-title">공항 미팅</h2>
+    <div class="cb-meet">
+      <div class="cb-meet-top">
+        <div class="cb-meet-time"><small>11월 1일(일)</small><b>15:50</b></div>
+        <div>
+          <h5>인천공항 제2터미널 3층 출국장<br>C-54 여행사 카운터</h5>
+          <p>12번 출입구로 들어와 동쪽 끝으로 오시면 됩니다.</p>
+          <p class="cb-meet-note">* 출발(18:50) 3시간 전 · 여권 원본을 꼭 챙겨 주세요.</p>
+        </div>
+      </div>
+      <img src="airport-meeting.jpg" alt="인천공항 제2터미널 3층 출국장 지도 · 12번 출입구에서 동쪽 끝 C-54 여행사 카운터" loading="lazy">
     </div>
   </section>
   <section class="cb-sec">
@@ -580,7 +606,7 @@
           <div class="cb-day-head"><h3>제1일차 · 11월 1일 (일)</h3><span>✈️ 인천 → 세부</span></div>
           <ul class="cb-meal"><li><b>조</b>–</li><li><b>중</b>–</li><li><b>석</b>기내식</li></ul>
           <div class="cb-tl">
-            <div class="cb-tl-item"><div class="cb-tl-time">16:20</div><h5>인천국제공항 집결</h5><p>출발 2시간 30분 전 · 미팅 장소는 확정 시 안내</p></div>
+            <div class="cb-tl-item"><div class="cb-tl-time">15:50</div><h5>인천국제공항 집결</h5><p>출발 3시간 전 · 제2터미널 3층 출국장 C-54 여행사 카운터</p></div>
             <div class="cb-tl-item"><div class="cb-tl-time">18:50</div><h5>KE 601 인천 출발</h5></div>
             <div class="cb-tl-item"><div class="cb-tl-time">22:20</div><h5>막탄-세부 국제공항 도착</h5><p>입국 수속 후 가이드 미팅 · 미팅보드 <b>"한화생명금융서비스 드림사업부"</b></p></div>
             <div class="cb-tl-item"><div class="cb-tl-time"></div><h5>리조트 이동 및 체크인</h5><p>전용 버스 · 약 20분 소요</p></div>
